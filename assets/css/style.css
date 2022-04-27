@@ -1,0 +1,160 @@
+body
+{
+  margin-top: 100px;
+  font-family: Baskerville Old Face;
+  color : #5bc0de;
+}
+
+.login-position
+{
+  margin-top: 200px;
+}
+
+
+.form-login
+{
+  opacity: .7;
+}
+
+
+.hgl
+{
+  background-color: purple;
+  opacity: .7;
+  padding: 3px;
+}
+
+.or
+{
+  background: #5bc0de;
+  border-radius: 40px;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 75px;
+  text-align: center;
+  width: 50px;
+}
+
+.jam
+{
+  color: #777777;
+  margin-top:4px;
+  font-size: 18px;
+}
+
+/*h1 dalam body*/
+body > h1 , body > h3 , body > .hgl13
+{
+  text-align: center;
+  color: cyan;
+  
+}
+
+
+a
+{
+  font-size: 18px;
+}
+
+.btn
+{
+  font-size: 25px;
+  font-weight: bold;
+  opacity: .8;
+  margin-right: 10px;
+}
+
+.btn-login > .btn
+{
+  opacity: 1;
+}
+
+
+.lbl
+{
+  font-size: 18px;
+}
+
+
+/*============================================================================================*/
+/*  Dropdown menu*/
+.dropdown-menu  li  a:hover, .dropdown-menu  li  a:focus {
+  background-color: cyan;
+  color: #FFFFFF;
+  font-family: Baskerville Old Face;
+  text-decoration: none;
+}
+
+.navbar-header 
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+
+.nav.navbar-nav > li:hover > ul.sub-menu{
+  display: block;
+  -webkit-animation: fadeInUp 400ms;
+  -moz-animation: fadeInUp 400ms;
+  -ms-animation: fadeInUp 400ms;
+  -o-animation: fadeInUp 400ms;
+  animation: fadeInUp 400ms;
+}
+
+ul.sub-menu {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 200px;
+  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+  display: none;
+  z-index: 999;
+}
+
+.dropdown ul.sub-menu li .active{
+  color: cyan;
+  padding-left: 0;
+}
+
+
+.navbar-nav li ul.sub-menu li{
+  padding: 10px 20px 0 ;
+}
+
+.navbar-nav li ul.sub-menu li:last-child{
+  padding-bottom: 20px;
+}
+
+.navbar-nav li ul.sub-menu li a{
+  color: white;
+}
+
+.navbar-nav li ul.sub-menu li a:hover{
+    color: cyan;
+}
+
+.fa-angle-down{
+  padding-left: 5px; 
+}
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+  
